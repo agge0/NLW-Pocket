@@ -44,3 +44,21 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 # Node JS
 - Js Runtime Enviroment:
     Ámbiente de execução do Javascript
+
+# As peças das linguagens
+
+- Comentários
+- Variaveis
+- tipos de dados (string, number, boolean)
+- Estrutura de dados (array, objetos, function)
+- Operadores (concatenação, lógicos, matematicos, .
+)
+- Fluxo de controle = If else
+- Estrutura de repetição = while for
+
+
+# Entendendo as fases de resolução de um problema
+
+1 - coleta de dados
+2 - Processar os dados(Manipular, alterar...)
+3 - Apresentar os dados
