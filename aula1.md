@@ -62,3 +62,5 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 1 - coleta de dados
 2 - Processar os dados(Manipular, alterar...)
 3 - Apresentar os dados
+
+é necessário entender isso.
