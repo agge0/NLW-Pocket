@@ -32,7 +32,7 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
     - Teorias, ideias como codar como criar seus códigos;
 
     * Funcional:
-        - pode criar funções e modificar do jeito que acahar interessante.
+        - pode criar funções e modificar do jeito que achar interessante.
     * Procedual:
         - Chamadas de eventos.
     * Imperativa:
