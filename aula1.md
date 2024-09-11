@@ -64,3 +64,7 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 3 - Apresentar os dados
 
 é necessário entender isso.
+
+# Tipos de dados
+
+- Function, number, string
