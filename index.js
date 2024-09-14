@@ -1,12 +1,75 @@
-// Escopo global e local
-
-const msg = "Olá!"
+// // // Escopo global
 
 
-{
-    const msg = "Auuuuu!"
-    console.log(msg)
+// // const msg = "Olá!"
+
+// // {
+// //     // Escopo local
+// //     const msg = "Auuuuu!"
+// //     console.log(msg) // Vai imorimir "Auuuu!"
+// // }
+
+
+// // // Vão mostrar "olá!"
+// // console.log(msg)
+
+
+
+// // Estrutura de dados
+
+// let metas = ["Age", "Alô"]
+
+// const meta = {
+//     value: "Tomar banho",
+//     checked: false
+// }
+
+// console.log(metas[1]+" "+metas[0])
+// console.log(meta.value)
+
+// if(meta.checked){
+//     console.log("Tomou banho.")
+// }else{
+//     console.log("Ahhhh esse dji não tomou!")
+// }
+
+// // Mostrando dados com for
+
+// for(let meta of metas){
+//     console.log(meta);
+// }
+
+// // fucntion, arrow fucntion
+
+// const tarefa = {
+//     value: "fazer tpc.",
+//     fezTpc: (info = 10) => {
+//         console.log(info)
+//     }
+// }
+
+
+// tarefa.fezTpc(20)
+
+// // Operador terneario
+// let x = 10 > 4 ? 10 : 4
+
+// console.log(x)
+
+
+
+
+const meta = {
+    value: "Sair.",
+    checked: true
 }
 
+const metas = [
+    meta,{
+        value:"Estudar muito.",
+        checked: false
+    }
+]
 
-console.log(msg)
+
+console.log(metas[1].value)

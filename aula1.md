@@ -67,4 +67,8 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 
 # Tipos de dados
 
-- Function, number, string
+[x] number, string
+# Estrutura de dados
+[x] array, object, fucntion
+
+# Arrow fucntion, named fuction
