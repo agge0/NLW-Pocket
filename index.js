@@ -57,19 +57,36 @@
 // console.log(x)
 
 
+// const meta = {
+//     value: "Sair.",
+//     checked: true
+// }
+
+// const metas = [
+//     meta,{
+//         value:"Estudar muito.",
+//         checked: false
+//     }
+// ]
 
 
-const meta = {
-    value: "Sair.",
-    checked: true
+// console.log(metas[1].value)
+
+const start = () =>{
+    while(true){
+        let option = "sair"
+        switch(option){
+            case "deletar":
+                console.log("Vamos cadastrar!")
+                break
+            case "cadastrar":
+                console.log("Vamos cadastrar!")
+                break
+            case "sair":
+                console.log("Bye!")
+                return
+        }
+    }
 }
 
-const metas = [
-    meta,{
-        value:"Estudar muito.",
-        checked: false
-    }
-]
-
-
-console.log(metas[1].value)
+start()
