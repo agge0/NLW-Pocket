@@ -74,9 +74,29 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 
 [x] Arrow fucntion, named fuction
 
-# Controle de fluxo
+# Controle de fluxo ou condicionais
 [x] switch case
 
 # estrutura de repetição
 
 [x] while
+
+# GitIgnore gitignor
+
+[x]  nome_do_modulo/
+
+
+# Modulos ou pacotes /  Importação do modulo (require, commonJs)
+
+# const {vira_um_objeto} = require("@nomeDomodulo/objeto_principal")
+
+= Por exemplo: const {select} = require(@requirer/prompts)
+
+- Prompts = Fazer perguntas ao usuarios
+
+
+# Programação Assicrona e promessas / assync & await
+
+[x] await = promessas de retorna qualquer coisa
+[x] assync = pk faz linha a linha
+
