@@ -1,11 +1,37 @@
-const {select} = require('@inquirer/prompts')
+const {select, input} = require('@inquirer/prompts')
+
+let meta = {
+        value: "Tomar banho",
+        checked: true
+    }
+
+
+let metas = [meta]
+
+const cadastrar = async () =>{
+    const resposta = await input({
+        message:"Digite alguma coisa :/> "
+    })
+
+    if(resposta.length == 0){
+        return
+    }
+
+    metas.push({
+        value: resposta,
+        checked: false
+    })
+}
 
 const start =  async () =>{
     while(true){
         let option = await select({
             message: "===========[  Menu  ]===========",
             choices:[
-                {name:"Cadastrar",
+                {name:"Mostrar metas",
+                    value: "m_metas"
+                },
+                {name:"Cadastrar Metas",
                     value: "cadastrar"
                 },
                 {name:"Apagar",
@@ -19,11 +45,14 @@ const start =  async () =>{
       })
 
         switch(option){
+            case "m_metas":
+                console.log(metas)
+                break
             case "deletar":
                 console.log("Apagando...")
                 break
             case "cadastrar":
-                console.log("Vamos cadastrar!")
+                await cadastrar()
                 break
             case "sair":
                 console.log("Bye!")
