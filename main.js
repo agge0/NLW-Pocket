@@ -48,21 +48,66 @@ const teste = (nome, idade, onSucess, onError) =>{
 
 
 // Usando Promisse
-const userInfo = (email, passwd) =>{
-    return new Promise((resolve, reject)=>{
-        const error = true
 
-        if(error){
-            reject(new Error("Deu um erro"))
-        }
+// const getVideos = (email) =>{
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             console.log(`Getting ${email} videos`)
+//             resolve(["video1", "video2", "video3"])
 
-        resolve({email})
+//         }, 2000)
 
-    })
-}
+//     })
+// }
 
-const user = userInfo("age@gmail.com", "2w333").then((user)=>{
-    console.log(user)
-}).catch((error)=>{
-    console.log(error)
+// const userInfo = (email, passwd) =>{
+//     return new Promise((resolve, reject)=>{
+//         const error = false
+
+//         if(error){
+//             reject(new Error("Deu um erro"))
+//         }
+//         resolve({email})
+
+//     })
+// }
+
+// // Usando promisses
+
+// userInfo("age","22h3hh").then((user)=>{
+//     return getVideos(user.email)
+// }).then((videos)=>{
+//     console.log(videos)
+// })
+
+
+// // Usanso Async/Await
+// const UsandoAsyncAwait = async () =>{
+//     let user = await userInfo("age@gmail.com", "sj3uh3u")
+//     let videos = await getVideos(user.email)
+
+//     console.log(videos)
+// }
+
+// UsandoAsyncAwait()
+
+// Usando Promise.All(recebe uma lista)
+
+
+
+const fb = new Promise(resolve=>{
+    setTimeout(()=>{
+        resolve("Posts do FB")
+    }, 2000)
+})
+
+const yt = new Promise(resolve=>{
+    setTimeout(()=>{
+        resolve("Posts do YouTube")
+    }, 2000)
+})
+
+Promise.all([yt, fb]).then(result =>{
+    console.log(result)
+    
 })
