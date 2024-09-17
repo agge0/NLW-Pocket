@@ -38,10 +38,31 @@ const teste = (nome, idade, onSucess, onError) =>{
     console.log("Fora do time out")
 }
 
-function yeah(teste){
-    console.log(teste)
+
+
+// const nome = teste("Age", 21, (user)=>{
+//     console.log(user)
+// }, (user)=>{
+//     console.log(user)
+// })
+
+
+// Usando Promisse
+const userInfo = (email, passwd) =>{
+    return new Promise((resolve, reject)=>{
+        const error = true
+
+        if(error){
+            reject(new Error("Deu um erro"))
+        }
+
+        resolve({email})
+
+    })
 }
 
-const nome = teste("Age", 21, yeah, (user)=>{
+const user = userInfo("age@gmail.com", "2w333").then((user)=>{
     console.log(user)
+}).catch((error)=>{
+    console.log(error)
 })
