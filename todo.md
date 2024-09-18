@@ -1,8 +1,8 @@
-- Criar Metas
-- Listar Metas
+[x] Criar Metas
+[x]Listar Metas
     - Metas realizadas
     - Metas abertas
-- Marvar e desmarcar Metas
+[x] Marcar e desmarcar Metas
 - Remover metas
 - Sistema de Mesagens
 

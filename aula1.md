@@ -47,12 +47,27 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 
 # As peças das linguagens
 
-- Comentários
-- Variaveis
-- tipos de dados (string, number, boolean)
-- Estrutura de dados (array, objetos, function)
-- Operadores (concatenação, lógicos, matematicos, .
-)
+[x] Comentários: //
+[x] Variaveis: let variavel, const variavel
+
+# tipos de dados 
+[x] (string: "Age" 
+[x] number: 10, 10.4 
+[x] boolean: true/false
+
+# Estrutura de dados 
+[x] array ["sumo", "morango"]
+[x] objeto {nome: "Age"} 
+[x] function: arrow fucntion = ()=>{}, named function: function exit(){}
+
+# Operadores 
+[x] concatenação (+)
+[x] comparação (> = < != >= <= ) 
+[x] matematicos( / + - * ) 
+[x] relacionais ( && ||  !) 
+[x] spreader oprator: ...
+
+
 - Fluxo de controle = If else
 - Estrutura de repetição = while for
 
@@ -71,6 +86,7 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 
 # Estrutura de dados
 [x] array, object, fucntion
+[x] Metódos do array, .push, .forech, .find (higher order function) 
 
 [x] Arrow fucntion, named fuction
 
