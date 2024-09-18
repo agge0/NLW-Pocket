@@ -64,9 +64,21 @@ const metasRealizadas = async () =>{
         return
     }
 
-    const resposta = await select({
+    await select({
         message: "Metas Realizadas",
         choices: [...meta]
+    })
+}
+
+
+const  metasAbertas = async ()=>{
+    const meta = metas.filter((meta)=>{
+        return !meta.checked
+    })
+
+    await select({
+        message: "Metas Abertas",
+        choices:[...meta]
     })
 }
 
@@ -80,6 +92,9 @@ const start =  async () =>{
                 },
                 {name:"Metas Realizadas",
                     value: "m_realizadas"
+                },
+                {name:"Metas Abertas",
+                    value: "m_abertas"
                 },
                 {name:"Cadastrar Metas",
                     value: "cadastrar"
@@ -100,6 +115,9 @@ const start =  async () =>{
                 break
             case "m_realizadas":
                 await metasRealizadas()
+                break
+            case "m_abertas":
+                await metasAbertas()
                 break
             case "deletar":
                 console.log("Apagando...")
