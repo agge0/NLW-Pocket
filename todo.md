@@ -3,7 +3,7 @@
     - Metas realizadas
     - Metas abertas
 [x] Marcar e desmarcar Metas
-- Remover metas
-- Sistema de Mesagens
+[x]- Remover metas
+[x]- Sistema de Mesagens
 
 

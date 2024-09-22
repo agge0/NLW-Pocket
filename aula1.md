@@ -103,13 +103,18 @@ recebe as ordens que vc dá para ele, faz isso através das linguagens de progra
 
 
 # Modulos ou pacotes /  Importação do modulo (require, commonJs)
+[x] Biblioteca "inquirer" para criar prompts interativos
+[x] fs (File system)
 
 # const {vira_um_objeto} = require("@nomeDomodulo/objeto_principal")
 
-= Por exemplo: const {select} = require(@requirer/prompts)
+= Por exemplo: const {select} = require(@inquirer/prompts)
 
 - Prompts = Fazer perguntas ao usuarios
 
+# Javascript object Noation (.json)
+[x] JSON.parse(): Transforma de json para javascript
+[x] JSON.stringfy(): Transforma de javascript para json
 
 # Programação Assicrona e promessas / assync & await
 
